@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#673AB7</color>
+    <color name="colorPrimaryDark">#512DA8</color>
+    <color name="colorAccent">#973AB7</color>
+    <color name="dividerColor">#B39DDB</color>
+
+    <color name="main_text_color">@android:color/black</color>
+    <color name="label_text_color">#2B3D4D</color>
+    <color name="data_text_color">#2B3D4D</color>
+    <color name="edit_data_text_color">#546E7A</color>
+
+</resources>

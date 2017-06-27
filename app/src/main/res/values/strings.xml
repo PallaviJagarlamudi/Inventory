@@ -1,0 +1,293 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Name for the application [CHAR LIMIT=12] -->
+    <string name="app_name">Inventory</string>
+
+    <!-- Label for option to view inventory items [CHAR LIMIT=20] -->
+    <string name="option_inventory">Products</string>
+
+    <!-- Label for option to view suppliers[CHAR LIMIT=20] -->
+    <string name="option_suppliers">Suppliers</string>
+
+    <!-- Label for option to view inventory items [CHAR LIMIT=20] -->
+    <string name="option_sales">Sales</string>
+
+    <!-- Label for option to view suppliers[CHAR LIMIT=20] -->
+    <string name="option_orders">Orders</string>
+
+    <!-- Label for overflow menu option that deletes all pet data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All entries</string>
+
+    <!-- Title for the activity to add a supplier pet [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_supplier">Add a Supplier</string>
+
+    <!-- Title for the activity to edit a existing supplier [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_supplier">Edit a Supplier</string>
+
+    <!-- Title for the activity to add a supplier pet [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_product">Add a Product</string>
+
+    <!-- Title for the activity to edit a existing supplier [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_product">Edit a Product</string>
+
+    <!-- Title for the activity to edit a existing supplier [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_order_product">Order a Product</string>
+
+    <!-- Title for the activity to edit a existing supplier [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_order">Edit an Order</string>
+
+
+    <!-- Text for customized exception possible in app [CHAR LIMIT=20] -->
+    <string name="err_product_name_manditory">Enter product name</string>
+    <string name="err_product_name_blank">Product name is blank</string>
+    <string name="err_product_sold_quantity_invalid">Product sold out quantity is invalid</string>
+    <string name="err_product_stock_quantity_invalid">Product Instock quantity is invalid</string>
+    <string name="err_product_price_invalid">Product price is invalid</string>
+    <string name="warn_quantity_empty">Quantity cannot be left blank!!</string>
+    <string name="warn_price_empty">What about price ? !!</string>
+    <string name="warn_max_limit">Reached Max Limit!! </string>
+    <string name="warn_sold_gt_stock">Stock quanity cannot be less than sold quantity</string>
+    <string name="warn_min_limit">Reached Min Limit!!</string>
+    <string name="warn_fill_all_fields_properly">Fill up all the fields before saving!!</string>
+    <string name="err_product_supplier_invalid">Product supplier is invalid</string>
+    <string name="warn_truncate">Price can have at max <xliff:g example="2" id="MAX_DECIMAL_PLACES">%d </xliff:g> decimal places</string>
+    <string name="warn_supplier_not_selected">Select a supplier</string>
+    <string name="err_product_stock_increment_value_invalid">Product Stock increment value is invalid or zero</string>
+    <string name="err_product_sold_increment_value_invalid">Product soldout increment value is invalid or zero</string>
+
+    <string name="err_supplier_name_manditory">Enter supplier name</string>
+    <string name="err_supplier_name_blank">Supplier name is blank</string>
+    <string name="err_supplier_mail_manditory">Enter supplier mail</string>
+    <string name="err_supplier_mail_blank">Supplier mail is blank</string>
+    <string name="err_supplier_mail_invalid">Supplier mail is invalid</string>
+
+    <string name="err_sales_quantity_invalid">Sale item quantity is invalid</string>
+    <string name="err_sales_price_invalid">Sale item price is invalid</string>
+    <string name="err_sales_product_id_invalid">Sale product id is invalid</string>
+
+    <string name="err_order_quantity_invalid">Order item quantity is invalid</string>
+    <string name="err_order_quantity_zero">Order cannot be placed with zero quantity!!</string>
+    <string name="err_order_quantity_blank">Order quantity cannot be balck</string>
+    <string name="err_order_product_id_invalid">Order product id is invalid</string>
+    <string name="err_order_supplier_id_invalid">Order supplier id is invalid</string>
+    <string name="warn_order_unchnaged">No changes to save</string>
+    <string name="err_order_status_invalid">Order status is invalid</string>
+    <string name="order_status_cancelled">Cancelled</string>
+    <string name="order_status_delivered">Delivered</string>
+    <string name="order_status_ordered">Ordered</string>
+    <string name="order_status_unknown">Unknown</string>
+
+
+    <string name="warn_no_camera_app">No camera apps</string>
+    <string name="err_no_mail_apps">Order recorded..No mail apps to email !!</string>
+    <string name="mail_sent">Mail sent to supplier!!</string>
+    <string name="warn_nothing_to_clear">No entries there to clear</string>
+
+    <!--- Messages to display when the listview is empty -->
+    <string name="empty_view_supplier_title_text">No suppliers means no business!!..</string>
+    <string name="empty_view_supplier_subtitle_text">Get started by adding a supplier</string>
+    <string name="empty_view_product_title_text">No products in inventory!!..</string>
+    <string name="empty_view_product_subtitle_text">Get started by adding products and starts sales/orders</string>
+    <string name="empty_view_sales_title_text">No sales yet!!.Advertise and attract!!</string>
+    <string name="empty_view_orders_title_text">No records for orders!!..</string>
+    <string name="empty_view_orders_subtitle_text">Check Product quantities and order</string>
+
+    <!-- Error messages for db actions -->
+    <!-- Toast message in editor when new supplier has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_supplier_successful">Supplier added</string>
+
+    <!-- Toast message in editor when new pet Supplier failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_supplier_failed">Error with adding Supplier</string>
+
+    <!-- Toast message in editor when a supplier has been successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_supplier_successful">Supplier updated</string>
+
+    <!-- Toast message in editor when new pet Supplier failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_supplier_failed">Error with updating Supplier</string>
+
+    <!-- Toast message in editor when a supplier has been successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_supplier_successful">Supplier deleted</string>
+
+    <!-- Toast message in editor when existing pet has been successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="delete_all_suppliers_successful">All Suppliers deleted</string>
+
+    <!-- Toast message in editor when new pet Supplier failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_supplier_failed">Error with deleting Supplier</string>
+
+    <!-- Toast message in editor when new product has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_product_successful">New product has beem added</string>
+
+    <!-- Toast message in editor when new pet product failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_product_failed">Error with adding a Product</string>
+
+    <!-- Toast message in editor when a supplier has been successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_product_successful">Product updated</string>
+
+    <!-- Toast message in editor when new  Supplier failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_product_failed">Error with updating Product</string>
+
+    <!-- Toast message in editor when a product has been successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_successful">Product deleted</string>
+
+    <!-- Toast message in editor when existing product has been successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="delete_all_products_successful">All Products deleted</string>
+
+    <!-- Toast message in editor when new product failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_failed">Error with deleting Product</string>
+
+    <!-- Toast message in editor when new order has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_order_successful">Order is placed</string>
+
+    <!-- Toast message in editor when new order order failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_order_failed">Error with placing Order</string>
+
+    <!-- Toast message in editor when existing order has been successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="delete_all_orders_successful">All Orders deleted</string>
+
+    <!-- Toast message in editor when a order has been successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_order_successful">Order updated</string>
+
+    <!-- Toast message in editor when new  order failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_order_failed">Error with updating Order</string>
+
+    <!-- Toast message in editor when a order has been successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_order_successful">Order deleted</string>
+
+    <!-- Toast message in editor when new order failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_order_failed">Error with deleting Order</string>
+
+    <!-- Toast message in editor when new order has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_sale_successful">Current sale recorded</string>
+
+    <!-- Toast message in editor when new order order failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_sale_failed">Error with recording Sales entry</string>
+
+    <!-- Toast message in editor when existing order has been successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="delete_all_sales_successful">All sales entries are deleted</string>
+
+    <!-- Toast message in editor when a order has been successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_sale_successful">Sales entry is deleted</string>
+
+    <!-- Toast message in editor when new order failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_sale_failed">Error with deleting Sales entry</string>
+    <!-- Dialog Activity messages -->
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current entry [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Label for editor menu option to save item and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor menu option to save item and leave editor [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for editor menu option to edit item  [CHAR LIMIT=20] -->
+    <string name="action_edit">Edit</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current ENTRY [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current entry [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Dialog message to ask the user to confirm deleting all the entries in the table [CHAR LIMIT=NONE] -->
+    <string name="delete_all_suppliers_dialog_msg">Delete all suppliers?</string>
+
+    <!-- Dialog message to ask the user to confirm deleting  the current supplier in the table [CHAR LIMIT=NONE] -->
+    <string name="delete_supplier_dialog_msg">Delete the supplier?</string>
+
+    <!-- Dialog message to ask the user to confirm deleting all the products in the table [CHAR LIMIT=NONE] -->
+    <string name="delete_all_products_dialog_msg">Delete all products?</string>
+
+    <!-- Dialog message to ask the user to confirm deleting  the current product in the table [CHAR LIMIT=NONE] -->
+    <string name="delete_product_dialog_msg">Delete the product?</string>
+
+    <!-- Dialog message to ask the user to confirm deleting all the orders in the table [CHAR LIMIT=NONE] -->
+    <string name="delete_all_orders_dialog_msg">Delete all orders?</string>
+
+    <!-- Dialog message to ask the user to confirm deleting all the sales entries in the table [CHAR LIMIT=NONE] -->
+    <string name="delete_all_sales_dialog_msg">Delete all sales entries?</string>
+    <string name="delete_sales_entry_dialog_msg">Delete the sales record?</string>
+
+    <!-- Dialog message to ask the user to confirm deleting all the orders in the table [CHAR LIMIT=NONE] -->
+    <string name="quit_from_order">Sure to quit the ordering?</string>
+
+    <!-- Dialog message to ask the user to confirm deleting all the sales entries in the table [CHAR LIMIT=NONE] -->
+    <string name="stay_here">Stay here</string>
+
+    <!-- Labels -->
+    <!-- Label for name  in the editor [CHAR LIMIT=30] -->
+    <string name="label_name">Name</string>
+
+    <!-- Hint for name  in the editor [CHAR LIMIT=30] -->
+    <string name="hint_name">Name</string>
+
+    <!-- Label for price  in the editor [CHAR LIMIT=30] -->
+    <string name="label_price">Price </string>
+
+    <!-- Hint for price  in the editor [CHAR LIMIT=30] -->
+    <string name="hint_price">12.00</string>
+
+    <!-- Hint for price  in the editor [CHAR LIMIT=30] -->
+    <string name="hint_quantity">8</string>
+
+    <!-- Label for quantity   [CHAR LIMIT=30] -->
+    <string name="label_quantity">Quantity</string>
+
+    <!-- Label for instock  in the editor [CHAR LIMIT=30] -->
+    <string name="label_quantity_in_Stock">In Stock</string>
+
+    <!-- Label for sold  in the editor [CHAR LIMIT=30] -->
+    <string name="label_quantity_sold">Sold</string>
+
+    <!-- Label for mail in the editor [CHAR LIMIT=30] -->
+    <string name="label_email">Email</string>
+
+    <!-- Label for name  in the editor [CHAR LIMIT=30] -->
+    <string name="hint_email">xyz.abc@gmail.com</string>
+
+    <!-- Label for product Instock Quantity [CHAR LIMIT=30] -->
+    <string name="label_product_instock">Instock:</string>
+
+    <!-- Label for product Sold out Quantity [CHAR LIMIT=30] -->
+    <string name="label_product_sold">Sold :</string>
+
+    <!-- Label for order [CHAR LIMIT=30] -->
+    <string name="label_order">Order</string>
+
+    <!-- Label for increment & decrement  [CHAR LIMIT=30] -->
+    <string name="label_decrement">-</string>
+    <string name="label_increment">+</string>
+
+    <!-- Label for product restock Quantity [CHAR LIMIT=30] -->
+    <string name="label_product_restock">Restock</string>
+
+    <!-- Label for product supplier  [CHAR LIMIT=30] -->
+    <string name="label_supplier">Supplier</string>
+
+
+    <string name="action_sell">Sale</string>
+    <string name="action_sold">Out of Stock!!</string>
+    <string name="cmd_refresh">refreshCmd</string>
+
+    <!-- Email related strings -->
+    <string name="mail_subject">Order for stock for <xliff:g example="Ribbons" id="MAX_DECIMAL_PLACES">%s </xliff:g></string>
+    <string name="mail_endearment">Hi <xliff:g example="SSR Ltd" id="supplierName">%s </xliff:g>,</string>
+    <string name="mail_summary_overview_line">Please send the stock for the below item.</string>
+    <string name="mail_summary_item_name">Item Name:  <xliff:g example="Robbins" id="productName">%s </xliff:g></string>
+    <string name="mail_summary_item_quantity">Quantity:  <xliff:g example="Robbins" id="productOrderQuantity">%d </xliff:g></string>
+    <string name="thank_you">Thank you !!</string>
+    <string name="mail_footer">Regards, \nABC Shop</string>
+
+
+    <!-- Order Editor labels  -->
+    <string name="label_order_prouct_name">Product </string>
+    <string name="label_order_supplier_name">Supplier </string>
+    <string name="label_order_quantity">Quantity </string>
+    <string name="label_order_status">Status </string>
+</resources>

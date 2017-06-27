@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="catalog_activity_option_layout_padding">4dp</dimen>
+    <dimen name="catalog_activity_label_size">18dp</dimen>
+    <dimen name="catalog_activity_option_layout_text_padding">4dp</dimen>
+
+    <!-- Margin around the floating action button in CatalogActivity -->
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_margin_min">5dp</dimen>
+
+    <!-- Common margin value used throughout the app -->
+    <dimen name="activity_margin">12dp</dimen>
+
+    <!-- ListItem image view measurements-->
+    <dimen name="list_item_image_height">100dp</dimen>
+    <dimen name="list_item_image_width">100dp</dimen>
+</resources>
